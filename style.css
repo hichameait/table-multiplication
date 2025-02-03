@@ -1,0 +1,72 @@
+th {
+  width: 30px;
+    height: 30px;
+    background: #ffd59c;
+}
+td {
+  width: 30px;
+    height: 30px;
+    background: #068da5;
+}
+
+/* Style for the table container */
+#table {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid #ccc; */
+  /* margin: 20px; */
+  /* border-radius: 5px; */
+}
+
+/* Style for each row */
+.row {
+  display: flex;
+}
+
+/* Style for each cell */
+.cell {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  flex: 1;
+  text-align: center;
+  background-color: #e5e7ff;
+}
+
+/* Style for header cells */
+.row .cell:first-child {
+  background-color: #ff6d6d;
+  font-weight: bold;
+}
+
+/* Add hover effect on cells */
+
+/* Optional: Adding some spacing between rows */
+.row + .row {
+  margin-top: 0px;
+}
+
+
+/* Styling for rows */
+.row, .header-row {
+  display: flex;
+  /* padding: 10px; */
+}
+
+/* Styling for cells */
+.cell {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #000000;
+  font-size: 22px;
+}
+
+/* You can add specific styling for the header row if you want */
+.header-row {
+  /* background-color: #f2f2f2; */
+  font-weight: bold;
+}
+
+td {
+  text-align: center;
+}
